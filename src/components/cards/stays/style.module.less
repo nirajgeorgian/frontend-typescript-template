@@ -1,0 +1,32 @@
+.stays_card {
+	width: 300px;
+}
+
+.stays_like {
+	position: absolute;
+	top: 5%;
+	left: 40%;
+}
+
+.stays_description {
+	& > div {
+		& > div:not(:last-child) {
+			margin-bottom: 0 !important;
+		}
+	}
+}
+
+.stays_priceinfo {
+	& > div {
+		display: flex;
+		flex-direction: column;
+
+		& > div {
+			margin-left: auto;
+		}
+
+		& > div:not(:last-child) {
+			margin-bottom: -0.5rem !important;
+		}
+	}
+}

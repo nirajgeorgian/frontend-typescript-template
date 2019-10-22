@@ -1,0 +1,11 @@
+export const INITIALIZE = '@libs/stays/INITIALIZE'
+export const INITIALIZE_SUCCESS = '@libs/stays/INITIALIZE_SUCCESS'
+export const INITIALIZE_FAILURE = '@libs/stays/INITIALIZE_FAILURE'
+
+export const HOMEPAGE_STAYS_FETCH = '@libs/stays/HOMEPAGE_STAYS_FETCH'
+export const HOMEPAGE_STAYS_FETCH_SUCCESS = '@libs/stays/HOMEPAGE_STAYS_FETCH_SUCCESS'
+export const HOMEPAGE_STAYS_FETCH_FAILURE = '@libs/stays/HOMEPAGE_STAYS_FETCH_FAILURE'
+
+export const STAYS_FETCH = '@libs/stays/STAYS_FETCH'
+export const STAYS_FETCH_SUCCESS = '@libs/stays/STAYS_FETCH_SUCCESS'
+export const STAYS_FETCH_FAILURE = '@libs/stays/STAYS_FETCH_FAILURE'
